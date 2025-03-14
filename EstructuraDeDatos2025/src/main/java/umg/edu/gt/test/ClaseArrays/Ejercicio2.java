@@ -4,10 +4,12 @@ package umg.edu.gt.test.ClaseArrays;
 //Diagonal de una matriz 
 
 import java.util.*;
-
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Ejercicio2 {
+    private static final Logger logJava = LogManager.getLogger(Ejercicio2.class);
+    
         public static void main(String[] args) {
              // Mostrar 
         int [] [] matriz = new int[][]{
@@ -18,8 +20,10 @@ public class Ejercicio2 {
         
         int [][] matrizOrdenado = ordenarEnDiagonal(matriz);
         
+  
         for(int [] fila : matrizOrdenado){
-            System.out.println(Arrays.toString(fila));
+//            System.out.println(Arrays.toString(fila));
+            logJava.debug(Arrays.toString(fila));
         }
         
     }

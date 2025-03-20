@@ -17,7 +17,7 @@ public class EjemploLog {
         logger.fatal("Mensaje de nivel FATAL");
     }
     // TRACE: Se utiliza para rastrear el flujo de ejecución del programa en un nivel muy granular.
-    // DBUG: usado para escribir mensajes de depuración
+    // DEBUG: usado para escribir mensajes de depuración
     // INFO: Se utiliza para registrar eventos importantes en la ejecución del programa, como el inicio o la finalización de un proceso.
     // WARN:  Se utiliza para registrar advertencias que podrían requerir atención, pero no son críticas.
     // ERROR:  Indica un error que afecta el funcionamiento de la aplicación, pero no la detiene por completo.

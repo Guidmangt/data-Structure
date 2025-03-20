@@ -14,5 +14,5 @@ LinkedList es una implementación de la estructura de datos de lista enlazada en
  Se realizaron pruebas con listas de diferentes tamaños y valores para verificar que:
 - [x] Las salidas cumplan con las instrucciones dadas.
 - [X] Manejo de errores
-- [X] Un en formato estructurado
+- [X] En un formato estructurado
 - [x] El nivel de log en la salida. 

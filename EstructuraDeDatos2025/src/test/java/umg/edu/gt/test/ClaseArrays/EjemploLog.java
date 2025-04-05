@@ -4,10 +4,11 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class EjemploLog {
-    
+
     private static final Logger logger = LogManager.getLogger(EjemploLog.class);
-    
+
     public static void main(String[] args) {
+        
         logger.info("Los niveles de log\n");
         logger.trace("Mensaje de nivel TRACE");
         logger.debug("Mensaje de nivel DEBUG");
@@ -22,5 +23,5 @@ public class EjemploLog {
     // WARN:  Se utiliza para registrar advertencias que podrían requerir atención, pero no son críticas.
     // ERROR:  Indica un error que afecta el funcionamiento de la aplicación, pero no la detiene por completo.
     // FATAL: Se utiliza para registrar errores graves que impiden que la aplicación continúe ejecutándose.
-    
+
 }
